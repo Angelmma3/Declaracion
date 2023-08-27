@@ -19,7 +19,6 @@
 </body>
 </html>
 
-
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click', function () {
