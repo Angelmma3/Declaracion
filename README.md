@@ -7,9 +7,18 @@
     <link rel="stylesheet" href="Estilos.css">
 </head>
 <body>
-
     
-    const yesBtn = document.querySelector('#yesBtn');
+<div class="contenedor">
+    <p>¿Quieres ser mi novia?</p>
+    <button id="yesBtn">Si</button>
+    <button id="noBtn">No</button>
+</div>
+<script src="index.js "></script>
+
+</body>
+</html>
+
+const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click', function () {
     alert('gracias por aceptar TQM <3')
