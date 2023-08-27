@@ -32,7 +32,7 @@ noBtn.addEventListener('mouseover', function () {
     const randomY =parseInt(Math.random()*100); 
     noBtn.style.setProperty('top' ,randomY+'%');
     noBtn.style.setProperty('left' ,randomX+'%');
-    noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`);
+    noBtn.style.setProperty('transform',`translate(-${randomX}%,-${randomY}%)`)
 });
 
 *{
