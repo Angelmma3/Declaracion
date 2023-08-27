@@ -49,6 +49,7 @@ button{
 
 }
 
+
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click', function () {
